@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @font-face {
+      font-family: monoFont;
+      src: url('static/Monotype.otf');
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .a4 {
+      width: 8.3in;
+      height: 11in;
+      margin: auto;
+      /* border: 5px solid black; */
+      position: relative;
+
+    }
+
+    img {
+      width: 8.3in;
+      /* height: 11in; */
+      float: left;
+      object-fit: contain;
+    }
+
+    .name {
+      position: absolute;
+      top: 57mm;
+      left: 55mm;
+      font-family: monoFont;
+      font-weight: bold;
+      letter-spacing: 0.2mm;
+    }
+
+    .years {
+      position: absolute;
+      top: 56.7mm;
+      left: 163.5mm;
+      font-family: monoFont;
+      font-weight: bold;
+      letter-spacing: 0.1mm;
+      font-size: 5mm;
+    }
+
+    .blood {
+      position: absolute;
+      top: 109.5mm;
+      left: 144.5mm;
+      font-family: monoFont;
+      font-weight: bold;
+      letter-spacing: 0.2mm;
+      font-size: 6mm;
+    }
+
+    .report {
+      position: absolute;
+      top: 116mm;
+      left: 140mm;
+      font-family: monoFont;
+      font-weight: bold;
+      letter-spacing: 0.2mm;
+      font-size: 5mm;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="a4">
+    <img src="static/blood.jpg" alt="img not found">
+    <span class="name">Habiba</span>
+    <span class="years">17</span>
+    <span class="blood">&lsquo;O&rsquo;</span>
+    <span class="report">Positive</span>
+  </div>
+
+</body>
+
+</html>
