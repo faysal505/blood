@@ -40,6 +40,7 @@
       font-family: monoFont;
       font-weight: bold;
       letter-spacing: 0.2mm;
+      text-transform: capitalize;
     }
 
     .years {
@@ -78,10 +79,10 @@
 
   <div class="a4">
     <img src="static/blood.jpg" alt="img not found">
-    <span class="name">Habiba</span>
-    <span class="years">17</span>
-    <span class="blood">&lsquo;O&rsquo;</span>
-    <span class="report">Positive</span>
+    <span class="name">{{name}}</span>
+    <span class="years">{{age}}</span>
+    <span class="blood">&lsquo;{{blood}}&rsquo;</span>
+    <span class="report">{{report}}</span>
   </div>
 
 </body>
